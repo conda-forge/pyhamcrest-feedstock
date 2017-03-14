@@ -11,6 +11,18 @@ Summary: Hamcrest framework for matcher objects
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyhamcrest-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyhamcrest-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyhamcrest-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyhamcrest-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyhamcrest/badges/version.svg)](https://anaconda.org/conda-forge/pyhamcrest)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyhamcrest/badges/downloads.svg)](https://anaconda.org/conda-forge/pyhamcrest)
+
 Installing pyhamcrest
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pyhamcrest` available on your pla
 ```
 conda search pyhamcrest --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyhamcrest-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyhamcrest-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyhamcrest-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyhamcrest-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyhamcrest/badges/version.svg)](https://anaconda.org/conda-forge/pyhamcrest)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyhamcrest/badges/downloads.svg)](https://anaconda.org/conda-forge/pyhamcrest)
 
 
 Updating pyhamcrest-feedstock

@@ -10,15 +10,13 @@ source:
   md5: 5ba6963490c91cd3081611f2d63dd142
 
 build:
-  number: 0
-  preserve_egg_dir: True
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
     - python
     - setuptools
-    - six
 
   run:
     - python
@@ -45,3 +43,4 @@ about:
 extra:
    recipe-maintainers:
       - duncanwp
+      - stuertz
