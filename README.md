@@ -14,14 +14,15 @@ Summary: Hamcrest framework for matcher objects
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyhamcrest-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyhamcrest-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyhamcrest-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyhamcrest-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyhamcrest-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyhamcrest-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyhamcrest/badges/version.svg)](https://anaconda.org/conda-forge/pyhamcrest)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyhamcrest/badges/downloads.svg)](https://anaconda.org/conda-forge/pyhamcrest)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyhamcrest-green.svg)](https://anaconda.org/conda-forge/pyhamcrest) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyhamcrest.svg)](https://anaconda.org/conda-forge/pyhamcrest) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyhamcrest.svg)](https://anaconda.org/conda-forge/pyhamcrest) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyhamcrest.svg)](https://anaconda.org/conda-forge/pyhamcrest) |
 
 Installing pyhamcrest
 =====================
