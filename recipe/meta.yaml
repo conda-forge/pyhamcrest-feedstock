@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.2" %}
 
 package:
   name: pyhamcrest
@@ -7,7 +7,7 @@ package:
 source:
   fn: PyHamcrest-{{ version }}.tar.gz
   url: https://pypi.python.org/packages/source/P/PyHamcrest/PyHamcrest-{{ version }}.tar.gz
-  md5: 689a67727ec6bd1657bd0fbf4c34b57a
+  md5: 7a086f0b067f8d38958ec32f054559b4
 
 build:
   noarch: python
@@ -40,9 +40,9 @@ about:
   home: https://github.com/hamcrest/PyHamcrest
   license: BSD 3-Clause
   license_file: LICENSE.txt
-  summary: 'Hamcrest framework for matcher objects'
+  summary: Hamcrest framework for matcher objects
 
 extra:
-   recipe-maintainers:
-      - duncanwp
-      - stuertz
+  recipe-maintainers:
+    - duncanwp
+    - stuertz
