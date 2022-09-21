@@ -3,7 +3,7 @@ About pyhamcrest
 
 Home: https://github.com/hamcrest/PyHamcrest
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyhamcrest-feedstock/blob/main/LICENSE.txt)
 
