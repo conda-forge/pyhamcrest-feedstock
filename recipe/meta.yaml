@@ -1,13 +1,12 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: pyhamcrest
   version: {{ version }}
 
 source:
-  fn: PyHamcrest-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/P/PyHamcrest/PyHamcrest-{{ version }}.tar.gz
-  md5: f628e2ff2b6a2518f54b15d70ac34c9d
+  url: https://pypi.python.org/packages/source/p/pyhamcrest/pyhamcrest-{{ version }}.tar.gz
+  sha256: b5d9ce6b977696286cf232ce2adf8969b4d0b045975b0936ac9005e84e67e9c1
 
 build:
   noarch: python
@@ -17,28 +16,29 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
-    - setuptools
-
+    - hatchling
+    - hatch-vcs
+    - python >=3.6
   run:
-    - python >=3.5
+    - python >=3.6
 
 test:
+  source_files:
+    - tests
+  requires:
+    - pip
+    - pytest-cov
+    - pytest-sugar
+    - pytest-xdist
   imports:
     - hamcrest
-    - hamcrest.core
-    - hamcrest.core.core
-    - hamcrest.core.helpers
-    - hamcrest.library
-    - hamcrest.library.collection
-    - hamcrest.library.integration
-    - hamcrest.library.number
-    - hamcrest.library.object
-    - hamcrest.library.text
+  commands:
+    - pip check
+    - pytest -vv --cov=hamcrest --no-cov-on-fail --cov-report=term-missing:skip-covered --cov-fail-under=95
 
 about:
   home: https://github.com/hamcrest/PyHamcrest
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Hamcrest framework for matcher objects
 
