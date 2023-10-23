@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.1.0" %}
 
 package:
   name: pyhamcrest
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.python.org/packages/source/p/pyhamcrest/pyhamcrest-{{ version }}.tar.gz
-  sha256: b5d9ce6b977696286cf232ce2adf8969b4d0b045975b0936ac9005e84e67e9c1
+  sha256: c6acbec0923d0cb7e72c22af1926f3e7c97b8e8d69fc7498eabacaf7c975bd9c
 
 build:
   noarch: python
