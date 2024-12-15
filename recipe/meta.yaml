@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -18,9 +18,9 @@ requirements:
     - pip
     - hatchling
     - hatch-vcs
-    - python >=3.6
+    - python {{ python_min }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   source_files:
@@ -30,6 +30,7 @@ test:
     - pytest-cov
     - pytest-sugar
     - pytest-xdist
+    - python {{ python_min }}
   imports:
     - hamcrest
   commands:
